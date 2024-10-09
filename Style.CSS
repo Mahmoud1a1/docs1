@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: cairo;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+
+header{
+
+display:flex;
+
+
+
+
+
+
+justify-content: space-between;
+align-items: center;
+background-color: #192F4C;
+color: white;
+padding: 0px 100px;
+border-top: solid crimson 5PX;
+position :fixed;
+z-index: 999;
+width: 100%;
+
+
+
+}
+
+
+
+header:hover{
+    border-top: solid #008b8b 5PX;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: ease 1s;
+}
+header a:hover{
+color: #008b8b;
+font-size: 25px;
+}
+.carsour{
+ 
+    height: 100vh;
+  display: flex;
+    align-items: center;
+  background-image: url(Images/top-view-office-table-desk-workspace-with-calculator-black-pen-laptop-blue_101276-159.avif);
+    background-size:  cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    background-position: center;
+}
+
+.carsour div {
+margin-left: 75px;
+}
+.carsour span{
+    color: white;
+}
+.carsour h2{
+    color: #192F4C;
+}
+.carsour a{
+
+color: white;
+background-color: black;
+text-decoration: none;
+padding: 10px;
+display:inline-block;
+margin-top: 10px;
+border-radius: 10px;
+transition: ease 1s;
+
+}
+.carsour a:hover{
+    background-color: #192F4C;
+font-size: 20px;
+}
+
+.Services H2{
+    text-align: center;
+    margin: 30PX 0PX;
+}
+
+
+.Services .Container{
+  display: flex;
+  padding: 0px 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Services .Card{
+   
+    margin-right: 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: ease 1s;
+     width: 20EM;
+    
+    
+    
+ 
+}
+
+
+.Card h3{
+    color: rgb(160, 54, 54);
+    text-align: center;
+    font-weight: 1000;
+}
+.Card .p{
+    font-size: 14px;
+   
+}
+
+.Services .Card >div{
+    color: #092b2b;
+    font-size: 50PX;
+    
+}
+.Portofilio{
+    background-color: #192F4C;
+   
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.Portofilio h2{
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: solid crimson;
+    display: inline-block;
+    margin-bottom: 30PX;
+}
+
+.Portofilio .Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Portofilio .Card{
+    background-color: white;
+border: solid;
+border-radius: 20px;
+margin-right: 20px;
+
+padding-bottom: 10px;
+width: 30%;
+margin-bottom: 30px;
+overflow: hidden;
+min-height: 250PX;
+}
+
+.Portofilio button{
+    padding: 0px 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkcyan;
+   border: none;
+   transition: ease 1s;
+  
+
+}
+
+
+.Portofilio button:hover{
+    transform: scale(1.1);
+}
+.Portofilio .Card_Desc{
+    margin: 0px 10px;
+    
+    align-items: end;
+    text-align: center;
+}
+
+.Portofilio .Card_Desc P{
+    font-size: 12PX;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.Portofilio .Card_Desc button {
+   
+    margin-left: 10PX;
+    font-weight: 700;
+    
+}
+.Portofilio img{
+    height: 12EM;
+    width: 100%;
+}
+
+
+.Notilla{
+
+padding: 50px 100px;
+display: flex;
+align-items: center;
+}
+
+.Notilla h2{
+color: crimson;
+}
+
+
+.Notilla p{
+    font-size: 13px;
+}
+.Notilla-desc{
+    text-align: center;
+    width: 60%;
+}
+.Notilla-image{
+    margin-right: 30px;
+    overflow: hidden;
+
+border-radius: 10px;
+
+box-shadow: 0px 0px 2px rgb(0 0 0/40%);
+}
+
+.Notilla-image-rtl{
+    margin-left: 40px;
+    overflow: hidden;
+border-radius: 10px;
+
+box-shadow: 0px 0px 2px rgb(0 0 0/40%);
+}
+.About{
+    
+
+    padding: 50px;
+   
+   min-height: 80vh;
+  
+    background-image: url(images/top-view-office-table-desk-workspace-with-calculator-black-pen-laptop-blue_101276-159.avif);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-blend-mode: overlay;
+background-color: rgba(0, 0, 0, .4);
+text-align: center;
+
+}
+
+
+.About img{
+border-radius: 50%;
+
+height: 20em;
+width: 20em;
+margin-right: 30px;
+margin-bottom: 20px;
+border: solid black;
+
+}
+
+.About>div{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+
+
+.About h2{
+    text-align: center;
+    color: white;
+    border-bottom: solid white;
+    display: inline-block;
+   
+}
+
+footer{
+    background-color: #192F4C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+ border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:crimson; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #03316d; 
+  }
+  .up{
+    position: fixed;
+    bottom: 10px;
+  }
+
+  .up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+        display: flex;
+    align-items: center;
+    color: white;
+
+  }
+.up:hover{
+background-color: #008b8b;
+  }
+
+  .MAP{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+  }
+  .MAP iframe{
+    width: 100%;
+  }
+  .MAP DIV{
+    width: 100%;
+    padding: 20PX;
+    box-shadow: 0PX 10PX 35PX 0px lightblue !important;
+  }
+  .MAP h2{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .Contact{
+    padding: 100px;
+    background: rgb(98,66,126);
+    background: radial-gradient(circle, rgba(98,66,126,1) 0%, rgba(17,17,23,1) 100%);
+text-align: center;
+    }
+
+    .Contact h2{
+        margin-bottom: 50px;
+        color: white;
+       border-bottom: solid;
+       display: inline-block;
+    }
+
+.input_form{
+  
+  margin-bottom: 20px;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  
+  }
+
+  .input_form input:hover~label , 
+ .input_form input:valid~label{
+    top: 5px;
+    transform: translateY(-40%);
+  }
+
+.input_form label{
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: ease 1s;
+    pointer-events: none;
+}
+.input_form input{
+    border: none;
+    border-bottom: solid #008b8b;
+    outline: none;
+    padding: 0px 5px;
+    width: 100%;
+    height: 50px;
+    transition: ease 1s;
+}
+
+.Sned {
+    background-color: #092b2b;
+    color: white;
+    padding: 4px 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: ease 1s;
+}
+
+.Sned:hover{
+    background-color: #008b8b;
+    transform: scale(1.1);
+}
